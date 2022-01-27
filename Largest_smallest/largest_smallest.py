@@ -1,4 +1,4 @@
-# Largest and smallest using None variable
+#Repeatedly prompts a user for integer numbers until the user enters 'done'. Once 'done' is entered, print the largest and smallest of the numbers, for invalid entry use try/except
 
 largest = None
 smallest = None

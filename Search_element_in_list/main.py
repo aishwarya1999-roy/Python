@@ -1,4 +1,8 @@
-found = 0  # this is used to confirm the output
+# Search element in a list using boolean variable
+
+#True and False are boolean variable
+
+found = False  # this is act as flag variable 
 i = 0  # this i is use for finding the position of the searched number
 
 x = input("Number to search : ")  # taking input to search
@@ -10,18 +14,18 @@ list1 = [10, 55, 23, 69, 48.32, 100, 80, 110.90]
 
 for j in list1:
     if j == xx: # in the first iteration, j = 10, so if 10 == searched number, then found else not found, and so on
-        found = 1
+        found = True
         break
     else:
-        found = 0
+        found = False
     i = i + 1
 
 #ind = ar.index(xx)  #you can also find the position of the searched number using index, but i use 'i' instade of index, just to keep it simple
 
-if found == 1:
-    # print("Found",thing,"at location :", ind) # if you use index (line 19) then only, remove the line 24 and use this line
+if found == True:
+    # print("Found",thing,"at location :", ind) # if you use index (line 23) then only, remove the line 28 and use this line
 
     print("Found", j, "at location :", i)
 
-elif found == 0:
+elif found == False:
     print("\nError!! \nNumber not found!")

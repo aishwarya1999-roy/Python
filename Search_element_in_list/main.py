@@ -20,10 +20,10 @@ for j in list1:
         found = False
     i = i + 1
 
-#ind = ar.index(xx)  #you can also find the position of the searched number using index, but i use 'i' instade of index, just to keep it simple
+#ind = list1.index(xx)  #you can also find the position of the searched number using index, but i use 'i' instade of index, just to keep it simple
 
 if found == True:
-    # print("Found",thing,"at location :", ind) # if you use index (line 23) then only, remove the line 28 and use this line
+    # print("Found",j,"at location :", ind) # if you use index (line 23) then only, remove the line 28 and use this line
 
     print("Found", j, "at location :", i)
 
